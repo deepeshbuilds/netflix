@@ -3,6 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .loginpage{
     border: 2px solid none;
     height: 900px;
@@ -74,9 +78,10 @@ background-color: black;
 }
 .poster{
 border: black 2px solid;
-height:550px;
+height:auto;
 display:flex;
 justify-content: space-evenly;
+flex-wrap: wrap;
 background-color: black;
 
 
@@ -118,11 +123,11 @@ background-color: black;
 }
 .join{
 border: black 2px solid;
-height:350px;
+height:auto;
 display:flex;
 justify-content: space-evenly;
 background-color:black;
-
+flex-wrap: wrap;
 
 
 }
