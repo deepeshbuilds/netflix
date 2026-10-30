@@ -1,23 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .loginpage{
-    border: 2px solid black;
+    border: 2px solid none;
     height: 900px;
     background-image: url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg);
     object-fit: cover;
     background-size:100% 100%;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center
+    
+
 }
 .h1p{
 border: 2px solid none;
 background-color: none;
 height: 330px;
 width: 500px;
-margin: 50px;
+margin-bottom: 200px;
 padding: 10px;
 text-align: center;
 color: white;
+align-items: center;
+margin-top: 170px;
+
+
+
 
 }
 button{
@@ -27,14 +38,138 @@ button{
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
-    border: radius:20px;
+    border-radius:5px;
+    
 }
 input{
-    input size: 52px;
+    height: 50px;
     padding: 13px 28px;
-    width: 300px;   
-    font-size: 14px;  
-    border: radius: 20px;
+    width: 400px;   
+    font-size: 30px;  
+    border-radius: 10px;
+    
+}
+h1{
+font-size: 60px;
+
+}
+h4{
+font-size: 25px;
+
+}
+.trending
+{
+height:40px;
+ border: 2px solid black;
+ padding-left: 55px;
+ padding-top: 40px;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 30px;
+color: white;
+background-color: black;
+
+}
+.poster{
+border: black 2px solid;
+height:550px;
+display:flex;
+justify-content: space-evenly;
+background-color: black;
+
+
+
+
+
+
+}
+.p1{
+    padding-bottom:  10px;
+border: 2px black solid;
+height:450px;
+width:300px;
+margin:10px;
+ object-fit: contain;
+ background-size: 100% 100%;
+ 
+ 
+ 
+
+
+}
+img{
+    height:460px;
+    width:300px;
+    border-radius: 15px;
+
+}
+.more
+{
+height:30px;
+ border: 2px solid black;
+ padding-left: 55px;
+ padding-bottom: 90px;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 30px;
+color: white;
+background-color: black;
+}
+.join{
+border: black 2px solid;
+height:350px;
+display:flex;
+justify-content: space-evenly;
+background-color:black;
+
+
+
+}
+.h2p{
+padding-bottom:  40px;
+
+height:250px;
+width:300px;
+padding-left: 30px;
+border-radius: 15px;
+ 
+     background-image: url("https://img.magnific.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8553.jpg?semt=ais_hybrid&w=740&q=80");
+color:white;
+
+ 
+
+
+}
+h2{
+
+    font-size:35px;
+}
+p{
+    font-size:23px;
+}
+.frequently
+{
+height:30px;
+ border: 2px solid black;
+ padding-left: 55px;
+ padding-bottom: 90px;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 30px;
+color: white;
+background-color: black;
+}
+.Questions{
+    border: black 2px solid;
+height:350px;
+display:flex;
+justify-content: space-evenly;
+background-color:black;
+
+
+
+}
+.ip{
+border-color: white 2px  solid;
+
+
 }
